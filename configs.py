@@ -1,18 +1,20 @@
-# (c) @AbirHasan2005
 
 import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
+	API_ID =18102551
+	API_HASH = '7c51c14ac28592debd5a45a3fdd376eb'
+	
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+
+
+	BOT_USERNAME = 'hiddenx_video_bot'
+	DB_CHANNEL = '-1002011777857'
+	BOT_OWNER = 6669835291
+	DATABASE_URL = 'mongodb+srv://kxzn980:kishan@cluster0.32dvcly.mongodb.net/?retryWrites=true&w=majority'
+	UPDATES_CHANNEL ='-1002130334868'
+	LOG_CHANNEL = '-1002019428322'
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -24,26 +26,18 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 **Language:** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** 
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
